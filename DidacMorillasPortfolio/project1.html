@@ -2,81 +2,96 @@
 <html lang="en">
 
 <head>
-  <!-- meta -->
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Didac Morillas Portfolio</title>
+    <title>Didac Morillas Portfolio</title>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i"
+        rel="stylesheet">
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-  <link href="lib/hover/hover.min.css" rel="stylesheet">
+    <!-- Libraries CSS Files -->
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="lib/hover/hover.min.css" rel="stylesheet">
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
 
-  <!-- Responsive css -->
-  <link href="css/responsive.css" rel="stylesheet">
+    <!-- Responsive css -->
+    <link href="css/responsive.css" rel="stylesheet">
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="images/logo.png">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logo.png">
 
 </head>
 
 <body>
-
     <nav id="main-nav">
         <div class="row">
-          <div class="container">
-            <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
-            <ul class="nav-menu list-unstyled">
-              <li><a href="index.html" class="smoothScroll">Home</a></li>
-            </ul>
-          </div>
+            <div class="container">
+
+                <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+
+                <ul class="nav-menu list-unstyled">
+                    <li><a href="index.html#home" class="smoothScroll">Home</a></li>
+                    <li><a href="index.html#about" class="smoothScroll">About</a></li>
+                    <li><a href="index.html#cv" class="smoothScroll">Curriculum Vitae</a></li>
+                    <li><a href="index.html#portfolio" class="smoothScroll">Portfolio</a></li>
+                    <li><a href="index.html#contact" class="smoothScroll">Contact</a></li>
+                </ul>
+
+            </div>
         </div>
-      </nav>
+    </nav>
+    <!-- start section project1 -->
+    <div id="about" class="paddsection">
+        <div class="container">
+            <div class="row justify-content-between align-items-center"> <!-- Alineación vertical -->
+                <div class="col-lg-4">
+                    <div class="about-img imgProject1">
+                        <img src="images/portfolio/project1.png" class="img-responsive border img-fluid"
+                            alt="CRUD_Python"> <!-- img-fluid para respuesta -->
+                    </div>
+                </div>
 
+                <div class="col-lg-7">
+                    <div class="about-descr">
+                        <p class="p-heading">CRUD with Python and MySQL</p>
+                        <p class="separator">This project involves creating a basic CRUD (Create, Read, Update, Delete)
+                            application to manage a user database using Python and MySQL.<br><br> The application allows
+                            users to add new entries with details such as name, email, and age, view a list of all users
+                            along with their specific information, modify existing user data, and remove users from the
+                            database.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  <!-- start section project1 -->
-  <div id="about" class="paddsection">
-      <div class="container">
-          <div class="row justify-content-between align-items-center"> <!-- Alineación vertical -->
-              <div class="col-lg-4">
-                  <div class="about-img imgProject1">
-                      <img src="images/portfolio/project1.png" class="img-responsive border img-fluid" alt="CRUD_Python"> <!-- img-fluid para respuesta -->
-                  </div>
-              </div>
+    <div class="paddsection bgColor">
+        <div class="container">
+            <div class="project-details">
+                <h4>Project Objectives:</h4>
+                <p class="colorWords">The primary objective was to develop a user-friendly interface for managing user
+                    data efficiently. The application aims to simplify user management tasks and improve data integrity.
+                </p>
 
-              <div class="col-lg-7">
-                  <div class="about-descr">
-                      <p class="p-heading">CRUD with Python and MySQL</p>
-                      <p class="separator">This project involves creating a basic CRUD (Create, Read, Update, Delete) application to manage a user database using Python and MySQL.<br><br> The application allows users to add new entries with details such as name, email, and age, view a list of all users along with their specific information, modify existing user data, and remove users from the database.</p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-
-  <div class="paddsection bgColor">
-      <div class="container">
-          <div class="project-details">
-              <h4>Project Objectives:</h4>
-              <p class="colorWords">The primary objective was to develop a user-friendly interface for managing user data efficiently. The application aims to simplify user management tasks and improve data integrity.</p>
-          
-              <h4>Results and Learnings:</h4>
-              <p class="colorWords">This project significantly enhanced my understanding of back-end development and database management. I learned the importance of writing clean, maintainable code and following best practices.</p>
-          </div>
-      </div>
-  </div>
-  <!-- end section project1-->
+                <h4>Results and Learnings:</h4>
+                <p class="colorWords">This project significantly enhanced my understanding of back-end development and
+                    database management. I learned the importance of writing clean, maintainable code and following best
+                    practices.</p>
+            </div>
+        </div>
+    </div>
+    <!-- end section project1-->
 
 </body>
 
