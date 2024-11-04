@@ -1658,6 +1658,18 @@ input, select, textarea {
 				width: auto;
 			}
 
+	@media (max-width: 920px){
+		.image img{
+			display: none;
+		}
+
+		.image {
+			background: url(./images/media.png);
+		}
+	}
+
+
+
 /* Button */
 
 	input[type="button"],
