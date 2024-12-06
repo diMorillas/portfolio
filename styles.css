@@ -1,0 +1,112 @@
+/*Generales*/
+
+/* https://paletasdecolores.com/paleta-de-colores-4512/ */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: #FEF;
+    color: #3E3E3E;
+    line-height: 1.5; /* Altura de línea de 1.5 */
+
+}
+
+nav{
+    background-color: #3E3E3E;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    transition: 0.3 ease;
+}
+
+a:hover{
+    scale: 1.10;
+    text-decoration: wavy;
+}
+
+/*Auxiliares*/
+
+.center{
+    text-align: center;
+}
+
+/* Contenedor de las tarjetas */
+.cards-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+/* Estilo de las tarjetas */
+.card {
+    background-color: #F5F5F5; /* Fondo claro */
+    border: 1px solid #DDD;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos de las tarjetas */
+.card h3 {
+    font-size: 1.5rem;
+    color: #3E3E3E;
+    margin-bottom: 10px;
+}
+
+/* Descripciones de las tarjetas */
+.card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+/*Boton CV*/
+
+.boton--cv{
+    text-decoration: none;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5%;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #555;
+    color: white;
+    transition: all 0.3 ease;
+}
+
+.boton--cv:hover{
+    background-color: #3E3E3E;
+}
+
+
+/*Footer*/
+
+footer{
+    background-color: #555;
+}

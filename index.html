@@ -1,298 +1,132 @@
-<!DOCTYPE HTML>
-<html>
-
+<!DOCTYPE html>
+<html lang="es">
 <head>
-	<title>Didac Morillas Rivera</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Didac Morillas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+<body>
 
-<body class="is-preload">
+    <!--Navegador-->
+    <nav id="Inicio">
+        <a href="index.html#Inicio" class="navegador">Inicio</a>
+        <a href="index.html#Servicios" class="navegador">Servicios</a>
+        <a href="index.html#Portfolio" class="navegador">Portfolio</a>
+        <a href="https://www.linkedin.com/in/didacmorillas/" target="_blank"><img src="./images/linkedin.png" alt="linkedin" width="20" height="20" style="cursor: pointer;"></a>
+    </nav>
+    <!--Navegador-->
+    <div class="m10 center" >
+        <h1 class="center"><br>Dídac Morillas</br></h1>
+        <h3 class="center">FullStack Developer</h3>
+        <br>
+        <img src="./images/didac.jpg"  width="400px" style="border-radius: 5px;" alt="didac">
+        <br>
+        <a href="" style="color: blue;text-decoration: underline;">Más sobre mi →</a>
+    </div>
+        <br><br><br><br>
+    
+    <h1 class="center" id="Servicios">Servicios</h2>
+    <div class="cards-container">
+        <div class="card">
+            <img src="./images/code.png" alt="code" width="80" style="margin-top: 5px;">
+            <br><br><br><br>
+            <h3>Desarrollo Web</h3>
+            <p>Con un stack tanto para FrontEnd y BackEnd con bases de datos.</p>
+           
+            
+        </div>
+        <div class="card">
+            <img src="./images/api.png" alt="code" width="80">
+            <br><br><br>
+            <h3>Apps Móviles</h3>
+            <p>Usando React Native, desarrollo y adpato aplicaciones móviles.</p>
+        </div>
+        <div class="card">
+            <img src="./images/phone.png" alt="code" width="80" style="margin-bottom: 10px;">
+            <br><br>
+            <h3>APIs</h3>
+            <p>Desarrollo e integración de APIs REST, SOAP, AWS y GraphQL, utilizando herramientas como Postman</p>
+        </div>
+    </div>
 
-	<!-- Nav -->
-	<nav id="nav">
-		<ul class="container" style="position: sticky;">
-			<li><a href="#top">Inicio</a></li>
-			<li><a href="#work">Servicios</a></li>
-			<li><a href="#formacion">Formación</a></li>
-			<li><a href="#certificado">Certificados</a></li>
-			<li><a href="#portfolio">Portfolio</a></li>
-			<li style="display: none;"><a href="#contact">Contacto</a></li>
+    <br><br><br><br><br>
+    
+    <h1 class="center" id="Portfolio">Portfolio</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./images/crud.png" alt="code" width="100%" style="margin-top: 5px;border-radius: 5px;">
+                <h3>CRUD</h3>
+                <p>C(reate) R(ead) U(pdate) D(elete) hecho con Python y MySQL.</p>
+                <br>
+               <a href="https://github.com/diMorillas/pythonCRUD"><img src="./images/github.png" width="40"></a>
+            </div>
 
-		</ul>
-	</nav>
+            <div class="card">
+                <img src="./images/animaolt.png" width="100%" alt="code" style="border-radius: 5px;">
+                <h3>Animalot el Clot</h3>
+                <p>Página de adopción de animales con HTML5, CSS3, Bootstrap, JavaScript.</p>
+                <br>
+                <a href="https://sprightly-narwhal-bc8348.netlify.app/" target="_blank"><img src="./images/enlace.png" width="40" style="margin-right: 15px;"></a>
+                <a href="https://github.com/diMorillas/ongAnimales" target="_blank"><img src="./images/github.png" width="40"></a>
+ 
+            </div>
 
-	<!-- Home -->
-	<article id="top" class="wrapper style1">
-		<div class="container">
-			<div class="row">
-				<div class="col-4 col-5-large col-12-medium">
-					<span class="image fit"><img src="images/me.jpg" alt="" /></span>
-				</div>
-				<div class="col-8 col-7-large col-12-medium">
-					<header>
-						<h1>Soy <strong>Didac Morillas</strong></h1>
-					</header>
-					<p>Desarrollador de Aplicaciones Web <b>Fullstack</b>, apasionado por la programación y la
-						inteligencia artificial.</p>
-				</div>
-			</div>
-		</div>
-	</article>
-
-	<!-- Work -->
-	<article id="work" class="wrapper style2">
-		<div class="container">
-			<header>
-				<h2>Servicios</h2>
-			</header>
-			<div class="row aln-center">
-				<div class="col-4 col-6-medium col-12-small">
-					<section class="box style1">
-						<div class="icon-container">
-							<img class="icon featured fa-code" src="images/iconos/code.svg" alt="Icono de código"
-								style="width: 120px;">
-						</div>
-						<h3>Desarrollo de Aplicaciones Web</h3>
-						<p>Con un stack tanto para FrontEnd y BackEnd con bases de datos</p>
-					</section>
-				</div>
-
-				<div class="col-4 col-6-medium col-12-small">
-					<section class="box style1">
-						<div class="icon-container">
-							<img class="icon featured fa-code" src="images/iconos/api.svg" alt="Icono de código"
-								style="width: 84px;">
-						</div>
-						<h3>Uso de APIs</h3>
-						<p>Desarrollo e integración de APIs REST, SOAP, AWS y GraphQL, utilizando herramientas como
-							Postman</p>
-					</section>
-				</div>
-
-				<div class="col-4 col-6-medium col-12-small">
-					<section class="box style1">
-						<div class="icon-container">
-							<img class="icon featured fa-code" src="images/iconos/mobile.svg" alt="Icono de código"
-								style="width: 72px;">
-						</div>
-						<h3>Aplicaciones en entorno Móvil</h3>
-						<p>usando React Native, desarrollo y adpato aplicaciones móviles.</p>
-					</section>
-				</div>
-			</div>
-	</article>
-
-
-
-	<!--Formación profesional-->
-	<article class="wrapper style3">
-		<div class="container">
-			<header>
-				<h2 id="formacion">Formación profesional</h2>
-			</header>
-			<div class="row">
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="" class="image featured" target="_blank"><img src="./images/iconos/el clot.JPG"
-								style="width: 380px;height: 380px ;margin-left: 3px;"></a>
-						<h3>Desarrollador de Aplicaciones Web</h3>
-						<p>Jesuïtes el Clot, Barcelona | 2023-2025</p>
-						<p>Nota media: Work In Progress</p>
-					</article>
-				</div>
-
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="" class="image featured" target="_blank"><img src="./images/iconos/el clot.JPG"
-								style="width: 380px;height: 380px ;margin-left: 3px;"></a>
-						<h3>Laboratorio clínico y biomédico</h3>
-						<p>Jesuïtes el Clot, Barcelona | 2021-2023</p>
-						<p>Nota media: 7,98</p>
-					</article>
-				</div>
-
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="" class="image featured" target="_blank"><img src="./images/iconos/rafecas.png"
-								style="width: 380px;height: 380px ;margin-left: 3px;"></a>
-						<h3>Auxiliar de Enfermería</h3>
-						<p>Lluch i Rafecas, Vilanova i la Geltrù | 2019-2021</p>
-						<p>Nota media: 7</p>
-					</article>
-				</div>
-
-
-			</div>
-		</div>
-	</article>
-	<!--Formación profesional-->
-
-	<!-- certificados -->
-	<article class="wrapper style3">
-		<div class="container">
-			<header>
-				<h2 id="certificado">Certificados oficiales</h2>
-			</header>
-			<div class="row">
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="https://www.credly.com/badges/7d34ba77-08a5-4ca4-86f1-89dcca8c0876/public_url"
-							class="image featured" target="_blank"><img src="./images/certificados/js_essentials_1.png"
-								/ style="width: 99%;margin-left: 3px;"></a>
-						<h3>JavaScript Essentials 1</h3>
-					</article>
-				</div>
-
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="https://www.credly.com/badges/adbc25cb-6360-426c-bca2-988b17472bc7/public_url"
-							class="image featured" target="_blank"><img src="./images/certificados/data_science_in.png"
-								style="width: 99%;margin-left: 3px;"></a>
-						<h3>Data Science Basics</h3>
-					</article>
-				</div>
-
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="#" class="image featured" target="_blank"><img src="./images/certificados/ia_01.png"
-								style="width: 99%;margin-left: 3px;"></a>
-						<h3>Google: Inteligencia Artificial y productividad</h3>
-					</article>
-				</div>
-
-			</div>
-		</div>
-	</article>
-	<!--Certificados-->
-
-	<!-- Portfolio -->
-	<article id="portfolio" class="wrapper style3">
-		<div class="container">
-			<header>
-				<h2 id="portfolio">Portfolio</h2>
-				<p>Algunos de los últimos proyectos creados</p>
-			</header>
-			<div class="row">
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="https://github.com/diMorillas/pythonCRUD" class="image featured" target="_blank"><img
-								src="./images/project1.png" alt="Crud" /></a>
-						<h3><a href="https://github.com/diMorillas/pythonCRUD" target="_blank">CRUD</a></h3>
-						<p>C(reate) R(ead) U(pdate) D(elete) hecho con Python y MySQL.</p>
-					</article>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="https://sprightly-narwhal-bc8348.netlify.app/" class="image featured"
-							target="_blank"><img src="./images/project2.png" alt="Animalot" /></a>
-						<h3><a href="https://sprightly-narwhal-bc8348.netlify.app/" target="_blank">Animalot el Clot</a>
-						</h3>
-						<p>Página de adopción de animales con HTML5, CSS3, Bootstrap, JavaScript.</p>
-					</article>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="https://lenoirclassiccars.vercel.app/" class="image featured" target="_blank"><img
-								src="./images/project3.png" style="height: 240px;" alt="Coches" /></a>
-						<h3><a href="https://lenoirclassiccars.vercel.app/" target="_blank">Le Noir Classic Cars</a>
-						</h3>
-						<p>Compra-venta de coches, reparaciones y modificaciones con HTML5, CSS3, JavaScript.</p>
-					</article>
-				</div>
-
-				<div style="display: none;">
-					<div class="col-4 col-6-medium col-12-small">
-						<article class="box style2">
-							<a href="#" class="image featured"><img src="images/pic04.jpg"" alt="" /></a>
-								<h3><a href="">Tempus dolore</a></h3>
-							<p>Ornare nulla proin odio consequat.</p>
-						</article>
-					</div>
-					<div class=" col-4 col-6-medium col-12-small">
-								<article class="box style2">
-									<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-									<h3><a href="#">Feugiat aliquam</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
-								</article>
-					</div>
-					<div class="col-4 col-6-medium col-12-small">
-						<article class="box style2">
-							<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-							<h3><a href="#">Sed amet ornare</a></h3>
-							<p>Ornare nulla proin odio consequat.</p>
-						</article>
-					</div>
-				</div>
-			</div>
-		</div>
-	</article>
-	<!--Portfolio-->
-
-	<!-- Contact -->
-	<article id="contact" class="wrapper style4" style="display: none;">
-		<div class="container medium">
-			<header>
-				<h2>Contáctame</h2>
-			</header>
-			<div class="row">
-				<div class="col-12">
-					<form method="post" action="send_email.php">
-						<div class="row">
-							<div class="col-6 col-12-small">
-								<input type="text" name="name" id="name" placeholder="Nombre..." required />
-							</div>
-							<div class="col-6 col-12-small">
-								<input type="email" name="email" id="email" placeholder="Correo electrónico..."
-									required />
-							</div>
-							<div class="col-12">
-								<input type="text" name="subject" id="subject" placeholder="Asunto..." required />
-							</div>
-							<div class="col-12">
-								<textarea name="message" id="message" placeholder="¡Hola! Estoy interesado en..."
-									required></textarea>
-							</div>
-							<div class="col-12">
-								<ul class="actions">
-									<li><input type="submit" value="Enviar mensaje" /></li>
-									<li><input type="reset" value="Limpiar formulario" class="alt" /></li>
-								</ul>
-							</div>
-						</div>
-					</form>
-				</div>
-				<div class="col-12">
-					<hr />
-					<h3>Redes sociales</h3>
-					<ul class="social">
-						<li><a href="https://www.linkedin.com/in/didacmorillas/" class="icon brands fa-linkedin-in"
-								target="_blank"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/diMorillas" class="icon brands fa-github" target="_blank"><span
-									class="label">Github</span></a></li>
-					</ul>
-					<hr />
-				</div>
-			</div>
-			<footer>
-				<ul id="copyright">
-					<p>Didac Morillas | +34 626 966 844 | didacmorillas19@gmail.com | Vilanova i la Geltrú, Barcelona
-					</p>
-				</ul>
-			</footer>
-		</div>
-	</article>
-
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-
+            <div class="card">
+                <img src="./images/lenoircars.png" alt="code" width="100%" height="180px" style="border-radius: 5px;">
+                <h3>Le Noir Cars</h3>
+                <p>Compra-venta de coches, reparaciones y modificaciones con HTML5, CSS3, JavaScript.</p>
+                <br>
+                <a href=" https://lenoirclassiccars.vercel.app/" target="_blank"><img src="./images/enlace.png" width="40" style="margin-right: 15px;"></a>
+                <a href="https://github.com/diMorillas/vintageCars" target="_blank"><img src="./images/github.png" width="40"></a>
+            </div>
+        </div>
+            <br><br><br><br><br>
+            <div class="contenedor--cv center">
+            <h1><i>Curriculum Vitae</i></h1>
+            <br><br>
+            <a href="https://www.dropbox.com/scl/fi/uyq57tvkq0tg6eagk6qsa/CV-D-dac-Morillas.pdf?rlkey=43fh48lcwbab5jk8qoobl31ev&st=vz1qabbb&dl=1" class="boton--cv" download>
+                Descargar CV
+            </a>
+            <br><br><br>
+        </div>
+        <br>
+        <footer style="background-color: #2c3e50; color: white; padding: 20px; text-align: center;">
+            <div style="max-width: 1200px; margin: 0 auto;">
+                <!-- Contacto -->
+                <section style="margin-bottom: 20px;">
+                    <h4>Contacto</h4>
+                    <p>Didac Morillas</p>
+                    <p>Email: <a href="mailto:didacmorillas19@gmail.com" style="color: #1abc9c; text-decoration: none;">didacmorillas19@gmail.com</a></p>
+                    <p>Teléfono: <a href="tel:+34626966844" style="color: #1abc9c; text-decoration: none;">+34 626 966 844</a></p>
+                </section>
+        
+                <!-- Enlaces -->
+                <section style="margin-bottom: 20px;">
+                    <h4>Enlaces útiles</h4>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li><a href="index.html#Inicio" style="color: #1abc9c; text-decoration: none;">Inicio</a></li>
+                        <li><a href="index.html#Servicios" style="color: #1abc9c; text-decoration: none;">Servicios</a></li>
+                        <li><a href="index.html#Portfolio" style="color: #1abc9c; text-decoration: none;">Portfolio</a></li>
+                    </ul>
+                </section>
+        
+                <!-- Redes sociales -->
+                <section style="margin-bottom: 20px;">
+                    <h4>Redes Sociales</h4>
+                    <a href="https://www.linkedin.com/in/didacmorillas" style="color: #1abc9c; text-decoration: none; margin-right: 10px;">LinkedIn</a>
+                    <a href="https://github.com/didacmorillas" style="color: #1abc9c; text-decoration: none; margin-right: 10px;">GitHub</a>
+                </section>
+        
+                <!-- Copyright -->
+                <section>
+                    <p>&copy; 2024 Didac Morillas. Todos los derechos reservados.</p>
+                </section>
+            </div>
+        </footer>
+        
 </body>
-
 </html>
